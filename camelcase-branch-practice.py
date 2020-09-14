@@ -1,5 +1,8 @@
 # This program uses the .title(), .split(), and .join() functions to convert a sentence into camel case.
 
+def display_instructions():
+    print('Enter a sentence to convert to camelCase. ')
+
 def display_banner():
     """ Display program name in banner """
     msg = 'AWSOME camelCaseGenerator PROGRAM'
@@ -17,6 +20,7 @@ def camelcase(sentence):
 
 def main():
     display_banner()
+    display_instructions()
     sentence = input("Enter a sentence: ")
     output = camelcase(sentence)
     print(output)
