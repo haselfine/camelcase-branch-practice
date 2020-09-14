@@ -2,7 +2,7 @@
 
 def display_banner():
     """ Display program name in banner """
-    msg = 'AWSOME camelCaseGenerator PROGRAM'
+    msg = 'AWESOME camelCaseGenerator PROGRAM'
     stars = '*' * len(msg)
     print(f'\n {stars} \n {msg} \n {stars}\n')
 
